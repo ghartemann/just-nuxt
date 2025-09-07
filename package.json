@@ -1,0 +1,34 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "start": "nuxt start"
+    },
+    "dependencies": {
+        "@iconify-json/lucide": "^1.2.66",
+        "@nuxt/ui": "^3.3.3",
+        "@nuxtjs/sitemap": "7.4.3",
+        "@nuxtjs/tailwindcss": "^6.14.0",
+        "@sentry/nuxt": "^9",
+        "@tailwindcss/vite": "^4.1.13",
+        "nuxt": "^3.16.2",
+        "tailwind-merge": "^3.3.1",
+        "tailwindcss": "^4.1.13",
+        "tailwindcss-animate": "^1.0.7",
+        "typescript": "^5.9.2",
+        "vue": "^3.5.21",
+        "vue-router": "^4.5.1"
+    },
+    "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+    "devDependencies": {
+        "sass-embedded": "^1.92.1",
+        "vite": "^7.1.4",
+        "vite-plugin-entry-shaking": "^0.5.1"
+    }
+}
