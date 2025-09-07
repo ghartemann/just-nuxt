@@ -107,9 +107,6 @@
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
-      "@opentelemetry/resources": [
-        "./@opentelemetry/resources/build/src/index.js"
-      ],
       "#sitemap": [
         "../node_modules/@nuxtjs/sitemap/dist/runtime"
       ],

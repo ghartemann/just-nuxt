@@ -15,8 +15,6 @@ declare module "#build/test-component-wrapper.mjs";
 declare module "#build/color-mode-options.mjs";
 declare module "#build/sentry-client-config.mjs";
 declare module "#build/sentry--nuxt-pages-data.mjs";
-declare module "#build/devtools/settings.mjs";
-declare module "#build/runtime.vue-devtools-client.ukxxC6gg98XUBE80_FTWV_MA_K4WP5wVJHTlxpLPUAo.js";
 declare module "#build/routes.mjs";
 declare module "#build/pages.mjs";
 declare module "#build/router.options.mjs";
