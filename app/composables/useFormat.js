@@ -1,4 +1,4 @@
-import currencies from "~/constants/currencies.js";
+import currencies from "~/app/constants/currencies.js";
 
 export default function useFormat() {
     function formatPrice(number, minimumFractionDigits = 0, maximumFractionDigits = 2, currency = 'EUR') {

@@ -14,9 +14,10 @@ export default defineNuxtConfig({
     },
 
     modules: [
+        '@nuxt/eslint',
         '@nuxt/ui',
-        '@sentry/nuxt/module',
-        '@nuxtjs/sitemap',
+        '@pinia/nuxt',
+        // '@sentry/nuxt/module',
     ],
 
     app: {
@@ -46,7 +47,7 @@ export default defineNuxtConfig({
         '~/components'
     ],
 
-    sourcemap: {
-        client: 'hidden'
-    }
+    // sourcemap: {
+    //     client: 'hidden'
+    // }
 });

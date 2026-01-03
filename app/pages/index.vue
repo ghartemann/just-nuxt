@@ -1,13 +1,13 @@
 <template>
     <div class="w-full min-h-screen flex flex-col overflow-hidden relative pb-16">
-        <CreatedBy class="absolute bottom-0"></CreatedBy>
+        <!-- content -->
     </div>
 </template>
 
 <script setup>
 const meta = {
     title: 'Just-Nuxt',
-    description: 'It\'s just a template.',
+    description: 'It\'s just a template.'
     // image: 'https://trickledown.ghartemann.fr/3d-money.jpg',
     // url: 'https://trickledown.ghartemann.fr/'
 };
