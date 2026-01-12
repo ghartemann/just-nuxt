@@ -1,0 +1,19 @@
+{
+    "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
+    "hooks": {
+        "after:init": "npm run lint"
+    },
+    "git": {
+        "commitMessage": "Release v${version}",
+        "requireBranch": "main",
+        "addUntrackedFiles": true
+    },
+    "github": {
+        "release": false
+    },
+    "plugins": {
+        "@release-it/bumper": {
+            "out": ["version.json"]
+        }
+    }
+}

@@ -17,7 +17,6 @@ export default defineNuxtConfig({
         '@nuxt/eslint',
         '@nuxt/ui',
         '@pinia/nuxt',
-        // '@sentry/nuxt/module',
     ],
 
     app: {
@@ -33,13 +32,6 @@ export default defineNuxtConfig({
                     href: '/icon.png'
                 },
             ]
-        }
-    },
-
-    sentry: {
-        sourceMapsUploadOptions: {
-            org: 'ghartemann',
-            project: 'just-nuxt'
         }
     },
 
