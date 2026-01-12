@@ -28,8 +28,8 @@ export default defineNuxtConfig({
             link: [
                 {
                     rel: 'icon',
-                    type: 'image/png',
-                    href: '/icon.png'
+                    type: 'image/svg',
+                    href: '/icon.svg'
                 },
             ]
         }
