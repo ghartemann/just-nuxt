@@ -10,7 +10,7 @@
         "postinstall": "nuxt prepare",
         "lint": "eslint .",
         "typecheck": "nuxt typecheck",
-        "release": "release-it"
+        "release": "release-it --dry-run"
     },
     "dependencies": {
         "@iconify-json/lucide": "^1.2.74",
