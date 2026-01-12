@@ -1,5 +1,5 @@
 {
-    "name": "nuxt-app",
+    "name": "just-nuxt",
     "version": "0.0.1",
     "private": true,
     "type": "module",
@@ -10,7 +10,7 @@
         "postinstall": "nuxt prepare",
         "lint": "eslint .",
         "typecheck": "nuxt typecheck",
-        "release": "release-it --dry-run"
+        "release": "release-it"
     },
     "dependencies": {
         "@iconify-json/lucide": "^1.2.74",
