@@ -33,7 +33,7 @@
         "release-it": "^21.0.3",
         "@release-it/bumper": "^8.0.1",
         "vue-tsc": "^3.2.5",
-        "typescript": "^5.9.3",
+        "typescript": "^7.0.2",
         "tailwindcss-animate": "^1.0.7"
     }
 }
