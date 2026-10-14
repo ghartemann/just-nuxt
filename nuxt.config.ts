@@ -17,6 +17,8 @@ export default defineNuxtConfig({
         '@nuxt/eslint',
         '@nuxt/ui',
         '@pinia/nuxt',
+        'nuxt-anchorscroll',
+        '@nuxt/image'
     ],
 
     app: {

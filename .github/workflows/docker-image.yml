@@ -1,0 +1,19 @@
+name: Docker Image CI
+
+on:
+    push:
+        tags:
+            - '*'
+
+jobs:
+    build:
+        runs-on: self-hosted
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Build Docker container
+              run: sudo -E docker compose build --no-cache --pull
+
+            - name: Run the container
+              run: sudo -E docker compose up -d
