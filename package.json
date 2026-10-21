@@ -28,7 +28,7 @@
         "@nuxt/eslint": "^1.17.0",
         "@tailwindcss/vite": "^4.3.3",
         "@vue/devtools-api": "^8.2.1",
-        "eslint": "^10.10.0",
+        "eslint": "^10.13.0",
         "eslint-plugin-vue": "^10.11.0",
         "release-it": "^21.0.3",
         "@release-it/bumper": "^8.0.1",
