@@ -18,7 +18,7 @@
         "@pinia/nuxt": "^1.0.2",
         "@vueuse/core": "^14.4.0",
         "commander": "^15.0.0",
-        "nuxt": "^4.5.2",
+        "nuxt": "^4.6.2",
         "nuxt-anchorscroll": "^1.0.5",
         "pinia": "^4.0.3",
         "tailwind-merge": "^3.7.0"
